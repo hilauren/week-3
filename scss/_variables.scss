@@ -1,0 +1,29 @@
+// Color system
+$white: #fff;
+$gray: #F2F2F2;
+$light-gray: #DEE2E6;
+$dark-gray: #707070;
+$black:    #000;
+
+// main color
+$primary: #AA0601;
+$secondary: #650300;
+$light-primary: #FBF2F2;
+$dark-blue: #212529;
+$dark-red: #555555;
+$orange: #B75929;
+$brown: #5F3E2D;
+
+// Fonts
+$fontsize-s: 14px;
+$fontsize: 16px;
+$fontsize-m: 18px;
+$fontsize-l: 19px;
+
+
+h2{font-size: $fontsize*4;}
+h3{font-size: $fontsize*3;}
+h4{font-size: $fontsize*2.25;}
+h5{font-size: $fontsize*2;}
+h6{font-size: $fontsize*1.5;}
+p{font-size: $fontsize;}

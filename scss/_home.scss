@@ -1,0 +1,38 @@
+@import "variables";
+@import "home_variables";
+
+
+
+h2{
+    font-size: $fontsize*4;
+    color: $secondary;
+}
+h3{
+    font-size: $fontsize*3;
+}
+h4{
+    font-size: $fontsize*2.25;
+}
+h5{
+    font-size: $fontsize*2;
+}
+h6{
+    font-size: $fontsize*1.5;
+}
+p{
+    font-size: $fontsize;
+}
+
+
+
+.home{
+    background-image: url(/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}

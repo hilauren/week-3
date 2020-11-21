@@ -52,6 +52,13 @@ table {
   border-spacing: 0;
 }
 
+.home {
+  background-image: url(/img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 840px;
+}
+
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

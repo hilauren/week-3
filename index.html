@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>第三周作業練習</title>
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="scss/all.css">
 </head>
 <body>
     
@@ -21,7 +21,118 @@
         </ul>
     </div>
 </div>
-<div class="content"></div>
+<div class="home" id="home">
+    <div class="container">
+        <h4>Promise-Desert 2020 早春系列</h4>
+        <h2>看得清，才能看得遠</h2>
+    </div>
+</div>
+<div class="feature" id="feature">
+    <div class="container">
+        <h4>用專業的心，做專業的事</h4>
+        <div class="feature_list">
+            <img src="" alt="單一價格">
+            <h6>單一價格</h6>
+            <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+        </div>
+        <div class="feature_list">
+            <img src="" alt="20分鐘即可取件">
+            <h6>20 分鐘即可取件</h6>
+            <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快20 分鐘即可完成。</p>
+        </div>
+        <div class="feature_list">
+            <img src="" alt="安心售後服務">
+            <h6>安心售後服務</h6>
+            <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+        </div>
+        <div class="feature_list">
+            <img src="" alt="關於鏡片">
+            <h6>關於鏡片</h6>
+            <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+        </div>
+    </div>
+</div>
+<div class="class" id="class">
+    <div class="container">
+        <h4>經典系列鏡框</h4>
+        <div class="class__list">
+            <img src="" alt="optical">
+            <h5 class="classlist__title">optical</h5>
+        </div>
+        <div class="class__list">
+            <img src="" alt="sunglasses">
+            <h5 class="classlist__title">sunglasses</h5>
+        </div>
+        <div class="class__list">
+            <img src="" alt="functional">
+            <h5 class="classlist__title">functional</h5>
+        </div>
+    </div>
+</div>
+<div class="co-branding" id="co-branding">
+    <div class="container">
+        <h4>聯名設計鏡框</h4>
+        <div class="co-branding__list">
+            <img src="" alt="">
+            <h5 class="co-brandinglist__title"></h5>
+        </div>
+        <div class="co-branding__list">
+            <img src="" alt="">
+            <h5 class="co-brandinglist__title"></h5>
+        </div>
+    </div>
+</div>
+<div class="recommend" id="recommend">
+    <div class="container">
+        <h4>顧客推薦</h4>
+        <div class="recommend__card">
+            <img src="" alt="">
+            <p class="card__title">Jessy</p>
+            <p class="card__txt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card__footer">Last updated 3 mins ago</p>
+        </div>
+        <div class="recommend__card">
+            <img src="" alt="">
+            <p class="card__title">Karen</p>
+            <p class="card__txt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card__footer">Last updated 3 mins ago</p>
+        </div>
+        <div class="recommend__card">
+            <img src="" alt="">
+            <p class="card__title">Chelsea</p>
+            <p class="card__txt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card__footer">Last updated 3 mins ago</p>
+        </div>
+        <div class="recommend__card">
+            <img src="" alt="">
+            <p class="card__title">Jane</p>
+            <p class="card__txt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card__footer">Last updated 3 mins ago</p>
+        </div>
+    </div>
+</div>
+<div class="contect" id="contect">
+    <h4>聯絡我們</h4>
+    <p class="contect__txt">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+    <form action="#" mothod="post">
+        <label for="name">姓名</label>
+        <input type="text" id="name" name="name" placeholder="陳小明">
+
+        <label for="tel">聯絡電話</label>
+        <input type="tel" id="tel" name="tel" placeholder="0912-345-678">
+
+        <label for="e-mail">電子郵件</label>
+        <input type="text" id="e-mail" name="e-mail" placeholder="example@email.com">
+
+        <label for="opinion">意見反應</label>
+        <input type="text" id="opinion" name="opinion" placeholder="請輸入您的意見">
+
+        <label for="accept">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+        <input type="checkbox" id="accept" name="accept">
+
+        <input type="sumbit" value="送出">
+    </form>
+</div>
 <div class="footer">
     <div class="footer__wrap">
         <div class="footer__menu">
@@ -37,10 +148,20 @@
                 <li><a href="#"><img src="img/logo/icon-ig.svg" alt="instagram"></a></li>
                 <li><a href="#"><img src="img/logo/icon-line.svg" alt="line"></a></li>
             </ul>
-            <ul class="footer_info">
-                <li><span><img src="img/icon/icon-phone.svg" alt="tel"></span>0800-000-000</li>
-                <li><span><img src="img/icon/icon-mail.svg" alt="mail"></span>glasses@business.com</li>
-            </ul>
+            <div class="footer_info">
+                <a href="#">
+                    <img src="img/icon/icon-phone.svg" alt="tel">
+                    <p>
+                        0800-000-000
+                    </p>
+                </a> 
+                <a href="#">
+                    <img src="img/icon/icon-mail.svg" alt="mail">
+                    <p>
+                        glasses@business.com
+                    </p>
+                </a>
+            </div>
         </div>
         <div class="hr"></div>
         <div class="footer__copyright">

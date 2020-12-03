@@ -2,25 +2,17 @@
 @import "home_variables";
 
 
+h2{font-size: $fontsize*4;line-height: 90px;font-weight: bold;}
+h3{font-size: $fontsize*3;}
+h4{font-size: $fontsize*2.25;
+    line-height: 50px;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+h5{font-size: $fontsize*2;}
 
-h2{
-    font-size: $fontsize*4;
-    color: $secondary;
-}
-h3{
-    font-size: $fontsize*3;
-}
-h4{
-    font-size: $fontsize*2.25;
-}
-h5{
-    font-size: $fontsize*2;
-}
-h6{
-    font-size: $fontsize*1.5;
-}
-p{
-    font-size: $fontsize;
+*{
+    box-sizing: border-box;
 }
 
 
@@ -34,5 +26,257 @@ p{
 
 .container{
     max-width: 1110px;
+    margin: 0 auto;
+
+}
+
+
+.home__title{
+    color: $secondary;
+    text-align: right;    
+    display: inline-block;
+    top: 50%;
+    position: absolute;
+    right: 0;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.home__title h4{
+    font-weight: 700;
+    line-height: 50px;
+    margin: 0;
+
+}
+
+
+.subtitle{
+    color: $secondary;
+    font-weight: bold;
+    text-align: center;
+    line-height: 67px;
+}
+
+
+.feature{
+    background-color: $light-primary;
+    padding-top: 64px;
+}
+
+.feature__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    align-self: center;
+    padding-bottom: 80px;
+
+}
+
+.feature{
+    img{
+        margin: 0 auto;
+        margin-bottom: 39px;
+        
+    }
+    h6{
+        font-size: $fontsize*1.5;
+        line-height: 33px;
+        font-weight: bold;
+        color: $secondary;
+        text-align: center;
+    }
+    p{  font-size: $fontsize;
+        line-height: 24px;
+        font-weight: 700;
+        text-align-last: left;
+    }
+    .feature_list{
+        width: 24.99%;
+        margin-left: 38px;
+        margin-right: 38px;
+        text-align: center;
+    }
+}
+
+.class{
+    padding-top: 64px;
+}
+
+.classlist__title{
+    font-size: 48px;
+    line-height: 63px;
+    font-style: italic;
+    color: $primary;
+    font-weight: 900;
+}
+.class__list > img{
+    width: 635px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.class__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.class__list:nth-child(3){
+    flex-direction: row-reverse;
+}
+
+.co-branding{
+    background-image: url(/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+.co-branding h4{
+    color: $white;
+}
+
+.co-branding__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.co-branding__list-l, .co-branding__list-r{
+    position: relative;
+    display: flex;
+    margin: 15px;
+    width: 540px;
+    height: 472px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $primary;
+}
+
+.co-branding__list-l{
+    background-image: url(/img/product-8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.co-branding__list-r{
+    background-image: url(/img/product-9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.co-branding__wrap h5{
+    font-size: 72px;
+    line-height: 95px;
+    font-weight: bold;
+    position: absolute;
+    display: inline-block;
+    top:50%;
+    bottom: 50%;
+}
+
+.co-branding__wrap img{
+    width: 540px;
+}
+
+.recommend{
+    padding: 64px;
+}
+.recommend__wrap{
+    display: flex;
+
+}
+
+.recommend__card{
+    width: 25%;
+    border: 1px solid $light-blue;
+    margin: 15px;
+}
+
+.recommend__card img{
+    max-width: 100%;
+}
+
+.card{
+    padding: 16px;
+}
+.card__title{
+    line-height: 19px;
+    color: $dark-blue;
+    font-weight: 700;
+    margin-top: 14px;
+}
+
+.card__txt{
+    line-height: 24px;
+    color: $dark-blue;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+.card__footer{
+    line-height: 19px;
+    color: $dark-gray;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.connection{
+    background-color: $light-primary;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+.connection form{
+    width: 730px;
+    margin: 0 auto;
+}
+
+form div{
+    margin-bottom: 16px;
+}
+
+form p{
+    font-size: $fontsize-xl;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: block;
+}
+
+label{
+    font-size: $fontsize;
+    line-height: 22px;
+    font-weight: 700;
+    display: block;
+}
+
+input{
+    color: rgba(0, 0, 0, 0.2);
+    line-height: 21px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 14px;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+input[type="submit"]{
+    width: 350px;
+    height: 54px;
+    background-color: $primary;
+    color: $white;
+    text-align: center;
+    padding: 13px;
+    border: none;
     margin: 0 auto;
 }

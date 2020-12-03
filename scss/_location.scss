@@ -1,0 +1,94 @@
+.l-header{
+    max-width: 100%;
+    background-image: url(/img/qa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 304px;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.l-header h2{
+    font-weight: bold;
+    line-height: 90px;
+    position: absolute;
+    bottom: 0;
+}
+.select-option form{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.select-option form p{
+    font-size: $fontsize*1.5;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.select-option form select{
+    width: 234px;
+    height: 45px;
+}
+.location__list{
+    padding-bottom: 304px;
+}
+
+.l-card{
+    font-weight: 700;
+    width: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.l-card__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+}
+
+.l-card img{
+    max-width: 100%;
+}
+
+.l-card__title{
+    font-size: $fontsize*1.5;
+    line-height: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    max-width: 100%;
+    border: 1px solid $lighter;
+
+}
+
+.l-card__txt{
+    font-size: $fontsize-xl;
+    line-height: 30px;
+    border: 1px solid $lighter;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    max-width: 100%;
+}
+
+.l-card__txt span{
+    margin-right: 12px; 
+}
+
+.l-card__txt img{
+    width: 21px;
+    height: 21px;
+}
+
+.l-card__btn{
+    font-size: $fontsize-l;
+    line-height: 26px;
+    background-color: $black;
+    text-align: center;
+    max-width: 100%;
+    color: $white;
+    padding: 20px;
+    margin: auto;
+}

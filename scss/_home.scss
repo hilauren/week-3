@@ -280,3 +280,12 @@ input[type="submit"]{
     border: none;
     margin: 0 auto;
 }
+
+.check-box{
+    display: flex;
+    width: 100%;
+}
+
+.check-box input{
+    width: 24px;
+}
